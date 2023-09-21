@@ -47,3 +47,13 @@ $(document).ready(function () {
 			$("#copyright")[0].innerHTML = "Copyright © "+d.getFullYear()+" VisionOSTool<br/>All Rights Reserved.";
 		}
 });
+
+//统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?11f2a81e9e292262bc98aa6e1ea40081";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
