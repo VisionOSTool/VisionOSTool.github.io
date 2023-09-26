@@ -2,7 +2,7 @@ $(document).ready(function () {
 	
 	//App list
 	var appliststr = "";
-	appliststr += "<ul><li><a href='index.html'>口算达人</a></li></ul>";
+	appliststr += "<ul><li><a href='index.html'>屏幕保护</a></li></ul>";
 	
 	$("#applist")[0].innerHTML = appliststr;
 	
