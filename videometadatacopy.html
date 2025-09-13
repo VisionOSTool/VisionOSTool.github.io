@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>VisionOSTool 工作室</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+		<script src="assets/js/nav.js" type="text/javascript"></script>
+		<script lang="javascript">
+		function goStore(){
+			var jsSrc =(navigator.language || navigator.browserLanguage).toLowerCase();
+			      if(jsSrc.indexOf('zh')>=0)
+			      {
+					window.location.href="https://apps.apple.com/cn/app/video-metadata-copy/id6752277267";
+			      }
+			      else
+			      {
+			        window.location.href="https://apps.apple.com/us/app/video-metadata-copy/id6752277267";
+			      }
+		}
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<!-- Content -->
+								<section>
+									<header align="center">
+										<h1>视频元数据复制</h1>
+									</header>
+									<div align="center"><img src="images/vmc/icon_128x128@2x.png" alt="" width="128px"/><br/>
+										<a href="javascript:;" onclick="goStore();" target="_blank">
+											<img src="images/downicon.svg" type="image/svg+xml"/>	
+										</a>
+									</div>
+									<br/>
+									<br/>
+									<h2 align="center">功能介绍</h2>
+									<div align="center">
+									<p>这当你在对视频剪辑后，可能发现这个视频的元数据丢失了，这对视频文件的管理很不方便。</p>
+									<p>现在，我们的App可以做到：</p>
+									<p>我们可以将一个视频复制视频元数据到另外一个视频文件。<br/>
+										不破坏视频本身的内容。<br/>
+										完整复制视频的元数据，保留它的原始资料。<br/>
+									</p>
+										<p>首先，拖入模板视频，就是原视频</p>
+										<img src="images/vmc/1.png" alt="" width="900px"/>
+										<p>然后，拖入一个或多个目标视频</p>
+										<img src="images/vmc/2.png" alt="" width="900px"/>
+										<p>点击开始复制</p>
+										<img src="images/vmc/3.png" alt="" width="900px"/>
+										<p>最终，复制完成，快去看看吧</p>
+										<img src="images/vmc/4.png" alt="" width="900px"/>
+									</div>
+									<br/>
+								</section>
+
+						</div>
+					</div>
+					
+					<!-- nav -->
+						<!-- Sidebar -->
+						<div id="sidebar">
+							<div class="inner">
+								<!-- Nav -->
+								<!-- Menu -->
+									<nav id="menu">
+										<header class="major">
+											<h2 id="mename"></h2>
+										</header>
+										<!-- App list -->
+										<div id="applist"></div>
+									</nav>
+								<!-- Section -->
+									<section>
+										<header class="major">
+											<h5 id="aboutname"></h5>
+										</header>
+										<p id="about"></p>
+										<header>
+											<a style="color: black;" href="privacy.html" id="privacy"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+											<a style="color: black;" href="agreement.html" id="agreement"></a>
+										</header>
+										<br/>
+										<ul class="contact">
+											<li class="icon solid fa-envelope"><a href="#">visionostool@qq.com</a></li>
+										</ul>
+									</section>		
+								<!-- Footer -->
+									<footer id="footer">
+										<p class="copyright" id="copyright"></p>
+									</footer>
+							</div>
+						</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
